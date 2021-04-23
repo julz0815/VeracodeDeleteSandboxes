@@ -24,7 +24,7 @@ Set your Veracode platform application profile name along with a threshold, once
   
 ## General Settings  
 Veracode Credentials  
-Select Settings > CI/CD > Variables.  
+Select Settings > Secrets.  
 Set these environment variables:  
 API_ID: your Veracode API ID from the Veracode Platform  
 API_KEY: your Veracode API Secret Key from the Veracode Platform  
