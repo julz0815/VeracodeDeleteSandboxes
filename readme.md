@@ -8,6 +8,7 @@ this little Java Script will automatically delete Sandboxes from a profile via a
   
 - Copy the VeracodeDeleteSandboxes.js and package.json file into your repository or locally  
 - run npm run delete-sandboxes with required command arguments  
+- npm delete-sandboxes profile_name=Sandboxes threshold=4 number_to_delete=5
   
   
 ## Command arguments delete sandboxes
