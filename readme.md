@@ -1,4 +1,4 @@
-# Veracaode - Delete Sandboxes via threshold 
+# Veracode - Delete Sandboxes via threshold 
 
 ## About
 
@@ -13,7 +13,7 @@ this little Java Script will automatically delete Sandboxes from a profile via a
 ## Command arguments delete sandboxes
 The script takes up to 4 command line arguments to achieve different things  
   
-1 - required    - porfile_name      = PROFILE_NAME  
+1 - required    - profile_name      = PROFILE_NAME  
 2 - required    - threshold         = threshold of number of sandboxes until when the older ones should be deleted  
 3 - required    - number_to_delete  = fixed number of oldest sandboxes to be delete    
 4 - optional    - app_guid          = EMPTY|APP_GUID  
