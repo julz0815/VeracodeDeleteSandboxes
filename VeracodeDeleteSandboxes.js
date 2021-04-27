@@ -67,7 +67,7 @@ const VeracodeDeleteSandboxes = async (outputFileName) => {
             sandboxes.sort((firstItem, secondItem) => firstItem.createDate - secondItem.createDate)
 
             i=0
-            while ( workingArgs['number_to_delete']-1 > i ){
+            while ( workingArgs['number_to_delete'] > i ){
                 console.log('Deleting Sandbox with name "'+sandboxes[i].name+'" from app profile "'+appname+'"')
                 deleteMySandbox = await deleteSandbox(sandboxes[i].guid,app_guid)
                 console.log(deleteMySandbox)
